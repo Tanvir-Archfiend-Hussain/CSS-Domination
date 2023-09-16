@@ -3,12 +3,38 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--https://www.youtube.com/watch?v=MkESyVB4oUw&t=1056s          2 minutes in -->
+    <!--https://www.youtube.com/watch?v=MkESyVB4oUw&t=1056s          7 minutes in -->
     <link rel="stylesheet" href="css/style.css" />
     <title>Task List 2021</title>
   </head>
   <body>
-    <div class="container"></div>
+    <header>
+      <h1>Task List 2021</h1>
+      <form id="new-task-form">
+        <input
+          type="text"
+          id="new-task-input"
+          placeholder="What do you have planned?"
+        />
+        <input type="submit" value="Add task" id="new-task-submit" />
+      </form>
+    </header>
+
+    <main>
+      <section class="task-list">
+        <h2>Task</h2>
+        <div id="tasks">
+          <div class="task">
+            <div class="content">
+              <input type="text" class="text" value="My Shiny Task" readonly />
+            </div>
+            <div class="actions">
+              <button class="edit">Edit</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
 
     <script src="js/main.js"></script>
   </body>
