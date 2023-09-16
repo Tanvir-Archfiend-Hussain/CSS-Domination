@@ -4,6 +4,13 @@
 }
 
 body {
-  background: url("https://cdnc.imagefap.com/images/full/73/147/147146143.jpg?secure=oYxpTYdILgtit0mAGcgwPA==,1694831492");
-  background-size: initial;
+  background: url("https://www.canvasartrocks.com/cdn/shop/products/Boxing_gloves_hanging_on_concrete_Wall_Mural_Wallpaper_a_700x.jpg?v=1578614225");
+  background-size: 400px 600px;
+}
+
+.container {
+  width: 400px;
+  height: 300px;
+  background-color: blue;
+  transform: translate(50%, 50%);
 }/*# sourceMappingURL=style.css.map */
