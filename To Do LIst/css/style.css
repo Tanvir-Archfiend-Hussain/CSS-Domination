@@ -6,4 +6,13 @@
 body {
   background: url("https://cdnc.imagefap.com/images/full/75/196/1961411168.jpg?secure=rNLQwu9qIjF86aTKyMsTlQ==,1694898455");
   background-size: 500px 600px;
+}
+
+:root {
+  --dark: #374151;
+  --darker: #1f3937;
+  --gray: #6b7280;
+  --light: #eee;
+  --pink: #ec4899;
+  --purple: #8b5cf6;
 }/*# sourceMappingURL=style.css.map */
