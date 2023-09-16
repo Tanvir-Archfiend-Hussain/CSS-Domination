@@ -1,11 +1,7 @@
 * {
   margin: 0;
-  padding: 0;
-}
-
-body {
-  background: url("https://cdnc.imagefap.com/images/full/75/196/1961411168.jpg?secure=rNLQwu9qIjF86aTKyMsTlQ==,1694898455");
-  background-size: 500px 600px;
+  margin: 0;
+  font-family: "Fira sans", sans-serif;
 }
 
 :root {
@@ -15,4 +11,19 @@ body {
   --light: #eee;
   --pink: #ec4899;
   --purple: #8b5cf6;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: var(--dark);
+  color: #fff;
+}
+
+header {
+  padding: 2rem 1rem;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
 }
