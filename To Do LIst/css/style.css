@@ -33,4 +33,18 @@ header h1 {
   font-weight: 300;
   color: var(--gray);
   margin-bottom: 1rem;
+}
+
+#new-Task-form {
+  display: flex;
+}
+
+input,
+button {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: none;
+  outline: none;
+  background: none;
 }/*# sourceMappingURL=style.css.map */
