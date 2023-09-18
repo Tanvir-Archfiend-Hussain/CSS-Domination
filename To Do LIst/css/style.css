@@ -47,4 +47,26 @@ button {
   border: none;
   outline: none;
   background: none;
+}
+
+#new-task-input {
+  flex: 1 1 0%;
+  background-color: var(--darker);
+  padding: 1rem;
+  border-radius: 1rem;
+  margin-right: 1rem;
+  color: var(--light);
+  font-size: 1.25rem;
+}
+
+#new-task-input::-moz-placeholder {
+  color: var(--gray);
+}
+
+#new-task-input::placeholder {
+  color: var(--gray);
+}
+
+#new-task-submit {
+  color: var(--pink);
 }/*# sourceMappingURL=style.css.map */
