@@ -20,3 +20,4 @@ const collection = [
 const map1 = collection.map((x) => x + " yam yam");
 
 console.log(map1);
+console.log("first", first);
