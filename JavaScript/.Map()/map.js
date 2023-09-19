@@ -16,3 +16,7 @@ const collection = [
   "Hindu Bramin Petite Mature",
   "Hindu Bramin Short Mature",
 ];
+
+const map1 = collection.map((x) => x + " yam yam");
+
+console.log(map1);
